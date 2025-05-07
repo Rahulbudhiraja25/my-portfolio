@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
   
         // Send the data to your backend API
-        fetch('https://email-sender-production-177c.up.railway.app/mail/send', {
+        fetch('https://email-sender-ca1h.onrender.com/mail/send', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
